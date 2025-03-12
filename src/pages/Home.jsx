@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
+import UpcomingEvents from "../components/UpcomingEvents";
+import { div } from "framer-motion/client";
+import WhatWeDo from "../components/WhatWeDo";
+import PublicationSection from "../components/PublicationSection";
 
 const HomePage = () => {
   // Sample carousel images - replace with your actual images
@@ -44,7 +48,8 @@ const HomePage = () => {
   console.log("Current slide index:", currentImageIndex);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div>
+      <div className="relative w-full h-screen overflow-hidden">
       {/* Carousel Background */}
       {carouselImages.map((image, index) => (
         <div
@@ -111,6 +116,12 @@ const HomePage = () => {
           />
         ))}
       </div> */}
+
+      
+    </div>
+    <UpcomingEvents/>
+    <WhatWeDo/>
+    <PublicationSection/>
     </div>
   );
 };
