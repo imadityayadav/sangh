@@ -5,10 +5,10 @@ const HomePage = () => {
   // Sample carousel images - replace with your actual images
   const carouselImages = [
     "1.jpg",
-    "/src/assets/2.jpg",
-    "/src/assets/3.jpg",
-    "/src/assets/4.jpg",
-    "/src/assets/5.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
