@@ -44,9 +44,9 @@ const Navbar = () => {
           <ul className="flex flex-col items-center space-y-4 text-white font-medium text-lg">
             <li><a href="/" className="hover:text-gray-300" onClick={() => setMenuOpen(false)}>Home</a></li>
             <li><a href="/aboutus" className="hover:text-gray-300" onClick={() => setMenuOpen(false)}>About</a></li>
-            <li><a href="#" className="hover:text-gray-300" onClick={() => setMenuOpen(false)}>Programs</a></li>
+            <li><a href="programs" className="hover:text-gray-300" onClick={() => setMenuOpen(false)}>Programs</a></li>
             <li><a href="#" className="hover:text-gray-300" onClick={() => setMenuOpen(false)}>Gallery</a></li>
-            <li><a href="#" className="hover:text-gray-300" onClick={() => setMenuOpen(false)}>Contact</a></li>
+            <li><a href="/contact" className="hover:text-gray-300" onClick={() => setMenuOpen(false)}>Contact</a></li>
           </ul>
         </div>
       )}
