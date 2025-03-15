@@ -4,6 +4,7 @@ import UpcomingEvents from "../components/UpcomingEvents";
 import { div } from "framer-motion/client";
 import WhatWeDo from "../components/WhatWeDo";
 import PublicationSection from "../components/PublicationSection";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   // Sample carousel images - replace with your actual images
@@ -122,6 +123,7 @@ const HomePage = () => {
     <UpcomingEvents/>
     <WhatWeDo/>
     <PublicationSection/>
+    <Footer/>
     </div>
   );
 };

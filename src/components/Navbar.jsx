@@ -22,11 +22,11 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <ul className="hidden md:flex space-x-8 text-white font-medium text-lg">
-          <li><a href="#" className="hover:text-gray-300 transition">Home</a></li>
-          <li><a href="#" className="hover:text-gray-300 transition">About</a></li>
-          <li><a href="#" className="hover:text-gray-300 transition">Programs</a></li>
+          <li><a href="/" className="hover:text-gray-300 transition">Home</a></li>
+          <li><a href="/aboutus" className="hover:text-gray-300 transition">About</a></li>
+          <li><a href="/programs" className="hover:text-gray-300 transition">Programs</a></li>
           <li><a href="#" className="hover:text-gray-300 transition">Gallery</a></li>
-          <li><a href="#" className="hover:text-gray-300 transition">Contact</a></li>
+          <li><a href="/contact" className="hover:text-gray-300 transition">Contact</a></li>
         </ul>
 
         {/* Mobile Menu Button */}
@@ -42,8 +42,8 @@ const Navbar = () => {
       {menuOpen && (
         <div className="md:hidden bg-orange-800 py-4 ]">
           <ul className="flex flex-col items-center space-y-4 text-white font-medium text-lg">
-            <li><a href="#" className="hover:text-gray-300" onClick={() => setMenuOpen(false)}>Home</a></li>
-            <li><a href="#" className="hover:text-gray-300" onClick={() => setMenuOpen(false)}>About</a></li>
+            <li><a href="/" className="hover:text-gray-300" onClick={() => setMenuOpen(false)}>Home</a></li>
+            <li><a href="/aboutus" className="hover:text-gray-300" onClick={() => setMenuOpen(false)}>About</a></li>
             <li><a href="#" className="hover:text-gray-300" onClick={() => setMenuOpen(false)}>Programs</a></li>
             <li><a href="#" className="hover:text-gray-300" onClick={() => setMenuOpen(false)}>Gallery</a></li>
             <li><a href="#" className="hover:text-gray-300" onClick={() => setMenuOpen(false)}>Contact</a></li>

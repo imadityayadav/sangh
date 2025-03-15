@@ -105,12 +105,19 @@ const UpcomingEvents = () => {
             className="relative"
           >
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="h-1 w-full bg-orange-300"></div>
+             
             </div>
             <div className="relative flex justify-center">
-              <div className="bg-orange-600 text-white px-8 py-3 rounded-lg shadow-lg">
-                <h2 className="text-3xl md:text-4xl font-bold text-center">Upcoming Events</h2>
-              </div>
+             <h2 className="text-4xl md:text-5xl font-bold text-orange-800 mb-6 relative inline-block">
+                        Upcoming Events
+                        <motion.div 
+                          className="absolute -bottom-3 left-0 right-0 h-1 bg-orange-500"
+                          initial={{ width: 0 }}
+                          whileInView={{ width: "100%" }}
+                          viewport={{ once: true }}
+                          transition={{ delay: 0.5, duration: 0.8 }}
+                        />
+                      </h2>
             </div>
           </motion.div>
         </div>
