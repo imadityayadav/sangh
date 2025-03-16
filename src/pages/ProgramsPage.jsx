@@ -387,7 +387,7 @@ const ProgramsPage = () => {
       
       {/* Downloadable Resources Section */}
       <motion.section 
-        className="py-16 px-6 bg-orange-900 bg-opacity-20"
+        className="py-16 px-6 bg-gray-900 bg-opacity-20"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
