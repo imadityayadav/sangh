@@ -374,7 +374,7 @@ const AboutPage = () => {
           className="mb-16"
         >
           <motion.div variants={itemVariants} className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-orange-800 mb-4">Founding Members</h2>
+            <h2 className="text-3xl font-bold text-orange-800 mb-4">Our Patrons</h2>
             <div className="w-24 h-1 bg-orange-500 mx-auto mb-6"></div>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto">
               Our organization was established by visionary scholars and practitioners dedicated to preserving and 
