@@ -9,8 +9,8 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         {/* Logo Section */}
         <a href="#" className="flex items-center space-x-3">
-          <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-md">
-            <img src="/logo.jpg" alt="SHANKH Logo" className="w-14 h-14 rounded-full" />
+          <div className="   flex items-center justify-center">
+            <img src="logo.png" alt="SHANKH Logo" className="w-14 h-14 " />
           </div>
           <span className="text-white text-xl font-bold tracking-wide">SHANKH</span>
         </a>
